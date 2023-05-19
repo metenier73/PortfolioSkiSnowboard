@@ -1,5 +1,5 @@
 - name: Setup Node.js environment
-  uses: actions/setup-node@v2.5.2
+  uses: actions/setup-node@v18.16.0
   with:
     # Set always-auth in npmrc
     always-auth: # optional, default is false
