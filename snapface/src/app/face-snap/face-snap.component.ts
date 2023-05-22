@@ -16,7 +16,9 @@ export class FaceSnapComponent {
      this.title = 'Archibald';
      this.description = 'Mon meilleur ami depuis tout petit !';
      this.createDate = new Date();
-     this.snaps = 6;
+     this.snaps = 0;
   }
-
+  onAddSnap() {
+    this.snaps++;
+  }
 }
